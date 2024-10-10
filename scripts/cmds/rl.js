@@ -1,4 +1,4 @@
--cmd install unsend.js module.exports = {
+module.exports = {
 	config: {
 		name: "r",
 		version: "1.2",
