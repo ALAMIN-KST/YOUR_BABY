@@ -34,13 +34,13 @@ module.exports = {
 
       if (prompt === '') {
         await message.reply(
-          "Hello I'am Alamin how can I help you dear 💘💘."
+          "Hello I'm Alamin how can I help you dear 💘💘."
         );
         return;
       }
 
 
-      await message.reply("alamin answering your question. Please wait a moment 💘...");
+      await message.reply("Alamin answering your question. Please wait a moment  💘...");
 
       const response = await axios.get(`https://hercai.onrender.com/GEMINI/hercai?question=${encodeURIComponent(prompt)}`);
 
