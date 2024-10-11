@@ -5,7 +5,7 @@ module.exports = {
 	config: {
 		name: "font",
 		version: "1.0",
-		author: "tom",
+		author: "Aryan",
 		countDown: 0,
 		role: 0,
 		shortDescription: "",
