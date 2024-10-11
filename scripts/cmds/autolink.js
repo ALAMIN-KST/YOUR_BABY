@@ -1,15 +1,9 @@
-const fs = require("fs-extra");
-const axios = require("axios");
-const cheerio = require("cheerio");
-const qs = require("qs");
-const { getStreamFromURL, shortenURL, randomString } = global.utils;
-
 module.exports = {
   threadStates: {},
   config: {
     name: 'autolink',
     version: '1.0',
-    author: 'Kshitiz',
+    author: 'Alamin',
     countDown: 5,
     role: 0,
     shortDescription: 'Auto video downloader for Instagram, Facebook, and TikTok',
